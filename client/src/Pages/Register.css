@@ -1,0 +1,47 @@
+ body {
+     background-color: #ffeaa7;
+     color: hsl(198, 1%, 29%);
+     font-family: "Architects Daughter", cursive;
+     box-sizing: border-box;
+     display: flex;
+     text-align: center;
+     min-height: 70vh;
+     align-items: center;
+     font-size: 130%;
+     justify-content: center;
+ }
+
+ .main-div {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border: 1px solid black;
+     padding: 0.5rem;
+     background: #f1f5f8;
+     background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+     background-size: 25px 25px;
+     border-radius: 15px;
+     min-height: 25rem;
+ }
+
+ .form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .butt {
+     border: 1px solid black;
+     font-size: 1.5rem;
+     padding: 0.4rem;
+ }
+
+ .butt:hover {
+     background-color: aliceblue;
+ }
+
+ h1 {
+     font-size: 2rem;
+     text-decoration: underline;
+ }

@@ -1,0 +1,32 @@
+/* 1rem = 16px*/
+.reg,
+.log {
+    text-decoration: none;
+    margin: 1rem;
+    border: 0.0625rem solid black;
+    border-radius: 0.3125rem;
+    padding: 0.6rem;
+    background-color: aqua;
+}
+
+.reg:hover,
+.log:hover {
+    background-color: aliceblue;
+}
+
+.cont {
+    display: flex;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.butt.bot {
+    margin-top: 1rem;
+}
