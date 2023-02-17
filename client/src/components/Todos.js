@@ -23,7 +23,7 @@ const Todos = () => {
   }
 
   useEffect(() => {
-    fetch(API_BASE + "/todos", {
+    fetch("/todos", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
